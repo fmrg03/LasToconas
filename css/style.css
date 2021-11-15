@@ -1,0 +1,26 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+header nav{
+    background-color: #ffc7b8;
+}
+footer{
+    background-color: #ffc7b8;
+}
+.paddingFooter{
+    padding-bottom: 0px!important;
+}
+
+.marginSection{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.sobreNosotros{
+    font-size: 30px;
+    font-weight: bold;
+}
+.imagenesRRSS{
+    width: 30px;
+}
