@@ -12,7 +12,6 @@ footer{
 .paddingFooter{
     padding-bottom: 0px!important;
 }
-
 .marginSection{
     margin-top: 20px;
     margin-bottom: 40px;
@@ -23,4 +22,26 @@ footer{
 }
 .imagenesRRSS{
     width: 30px;
+}
+#contacto h4{
+    text-align: center;
+}
+#contacto .formulario{
+    border: 1px solid #bfd1e2;
+    border-radius: 2px;
+    padding: 10px 30px 30px;
+}
+#contacto .formulario label{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.carousel {
+    width: 60% !important;
+    margin: auto;
+    margin-top: 50px; }
+.cardMargin{
+    margin: 5% 10% 3% 10%;
+}
+.personaldMargin{
+    margin: auto;
 }
