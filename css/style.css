@@ -1,47 +1,166 @@
-html{
+html {
     width: 100%;
     height: 100%;
 }
 
-header nav{
-    background-color: #ffc7b8;
+header nav {
+    background-color: #784c78;
 }
-footer{
-    background-color: #ffc7b8;
+footer {
+    background-color: #311a31;
 }
-.paddingFooter{
-    padding-bottom: 0px!important;
+.paddingFooter {
+    padding-bottom: 40px !important;
 }
-.marginSection{
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-.sobreNosotros{
+
+.sobreNosotros {
     font-size: 30px;
     font-weight: bold;
 }
-.imagenesRRSS{
-    width: 30px;
+
+#ubicacion {
+    background-color: #784c78;
+    display: flex;
+    justify-content: space-around;
 }
-#contacto h4{
-    text-align: center;
+
+#ubicacion h4 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 50px;
+    color: #fffcff;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    text-align: left;
 }
-#contacto .formulario{
-    border: 1px solid #bfd1e2;
-    border-radius: 2px;
-    padding: 10px 30px 30px;
+
+#ubicacion p {
+    color: #fffcff;
+    font-family: Oxygen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.75px;
 }
-#contacto .formulario label{
+
+.maps {
+    margin-top: 56px;
+    margin-right: 120px;
+    margin-bottom: 70px;
+    justify-content: end;
+}
+.colorIcono {
+    color: white;
+}
+
+#contacto {
+    background-color: #e2d4e2;
+    display: flex;
+    justify-content:space-around;
+}
+
+.margenUbicacion {
+    margin-left: 120px;
+}
+
+.margenFormulario {
+    margin-left: 30px;
+}
+#contacto h4 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 50px;
+    color: #4f2a4f;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+#contacto p {
+    margin-left: 20px;
+    margin-top: -5px;
+    color: #4f2a4f;
+    font-family: Oxygen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+}
+
+#contacto .formulario {
+    margin-right: 120px;
+    border-radius: 0px;
+    padding: 10px 0px 30px;
+}
+#contacto .formulario label {
     font-weight: bold;
     margin-top: 10px;
 }
+
+.nombreFormulario {
+    background-color: #eff0f6;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 580px;
+    height: 56px;
+}
+
+.emailFormulario {
+    background-color: #eff0f6;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 580px;
+    height: 56px;
+}
+
+.mensajeFormulario {
+    background-color: #eff0f6;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 580px;
+    height: 128px;
+}
+
+.separacionLineas {
+    line-height: 30px;
+}
+
+.enviarFormulario {
+    text-align: center;
+    background-color: #4f2a4f;
+    padding: 1rem 16rem;
+}
+
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: #4f2a4f;
+    border-color: #4f2a4f;
+}
+
+.seccionesUno {
+    margin-left: 120px;
+}
+
+.seccionesDos {
+    margin-right: 120px;
+}
+
 .carousel {
     width: 60% !important;
     margin: auto;
-    margin-top: 50px; }
-.cardMargin{
+    margin-top: 50px;
+}
+.cardMargin {
     margin: 5% 10% 3% 10%;
 }
-.personaldMargin{
+.personaldMargin {
     margin: auto;
 }

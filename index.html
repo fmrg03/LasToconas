@@ -210,89 +210,85 @@
             </div>
         </div>
     </section>
-    <section id="ubicacion" class="container-fluid marginSection">
+    <section id="ubicacion" class="container-fluid">
         <!--"UBICACION"-->
-        <div class="row">
-            <div class="col-xxl-6 col-sm-12">
-                <h4>Encuentranos en:</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi maiores optio non suscipit, excepturi,
-                    ipsam facilis placeat eaque enim dolor recusandae explicabo cumque, ratione quia? Recusandae
-                    accusantium perferendis tenetur amet?</p>
+        <div class="col-xxl-6 col-sm-12 margenUbicacion">
+            <h4>Showroom</h4>
+            <div style="display: flex;">
+                <div> 
+                <img width="30" height="30" src="images/ubicacion.png">
+            
             </div>
-            <div class="col-xxl-6 col-sm-12">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53356.99250014517!2d-66.34477104099095!3d-33.297580224022866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d43954196ca6cd%3A0x7fc2e3b4d49ecc83!2sSan%20Luis!5e0!3m2!1ses-419!2sar!4v1636943977343!5m2!1ses-419!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div style="margin-left: 10px;">
+                <p>Av. de los Incas 3751, San Luis, Argentina</p>
+                <p style="margin-top: 40px;">Atención:</p>
+                <p>Lunes a Viernes de 9h a 18h</p>
             </div>
         </div>
+        </div>
+        <div class="maps col-xxl-5 col-sm-12 row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d53351.24047139245!2d-66.28116694733025!3d-33.306982951676126!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d43954196ca6cd%3A0x7fc2e3b4d49ecc83!2sSan%20Luis!5e0!3m2!1ses-419!2sar!4v1638496918939!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
     </section>
-    <section id="contacto" class="container-fluid marginSection">
+    <section id="contacto" class="container-fluid">
         <!--"CONTACTO"-->
-        <h4>CONTACTO</h4>
-        <div class="row justify-content-center">
-            <div class="col-xxl-4 col-sm-12 align-self-end formulario">
+        <div class="col-xxl-6 col-sm-12 margenFormulario">
+            <h4>Contacto</h4>
+            <div style="margin-top: 20px;">
+                <div style="display: flex;">
+                    <img width="30" height="30" src="images/mail.png">
+                    <p>mail@lastoconas.com.ar</p>
+                </div>
+                <div style="display: flex; margin-top: 6px;">
+                    <img width="30" height="30" src="images/smartphone.png">
+                    <p style="margin-right: 20px;">12-3456-7890</p>
+                    <img width="30" height="30" src="images/telefono.png">
+                    <p>3456-6884</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-end formulario">
+            <div class="col-xxl-12 col-sm-12 align-self-end ">
                 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
                     action="https://formspree.io/f/xyylrjdo" method="post">
                     <fieldset id="fs-frm-inputs">
-                        <div class="row">
-                            <label for="full-name">Full Name</label>
-                            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                        <div class="row nombreFormulario">
+                            <input type="text" name="name" id="full-name" placeholder="Nombre" required="">
                         </div>
-                        <div class="row">
-                            <label for="email-address">Email Address</label>
-                            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld"
-                                required="">
+                        <div class="row emailFormulario">
+                            <input type="email" name="_replyto" id="email-address" placeholder="E-mail" required="">
                         </div>
-                        <div class="row">
-                            <label for="message">Message</label>
-                            <textarea rows="5" name="message" id="message"
-                                placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
-                                required=""></textarea>
+                        <div class="row mensajeFormulario">
+                            <textarea class="separacionLineas" rows="4" name="message" id="message"
+                                placeholder="Escribí aquí tu consulta..." required=""></textarea>
                             <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                         </div>
                     </fieldset>
-                    <input type="submit" value="Submit">
+                    <button class="btn btn-primary btn-lg btn-blockclass enviarFormulario" type="submit"
+                        value="Submit">ENVIAR</button>
                 </form>
             </div>
         </div>
     </section>
     <footer class="container-fluid py-5 paddingFooter">
         <div class="row">
-            <div class="col sm-6">
-                <h5>Section</h5>
+            <div class="col sm-6 seccionesUno">
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Redes Sociales</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Instagram</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Youtube</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Facebook</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tik Tok</a></li>
                 </ul>
             </div>
 
-            <div class="col sm-6">
-                <h5>Section</h5>
+            <div class="col sm-6 seccionesDos">
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tienda</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tutoriales</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
                 </ul>
             </div>
-            <div class="col sm-12">
-                <img src="./images/image.png" width="200x200" alt="">
-            </div>
-        </div>
-        <div class="d-flex justify-content-between py-4 my-4 border-top paddingFooter">
-            <p>&copy; 2021 Las Toconas. All rights reserved.</p>
-            <ul class="list-unstyled d-flex">
-                <li class="ms-3"><a class="link-dark" href="#"><img class="imagenesRRSS" src="./images/twitter_logo.png"
-                            alt=""></a></li>
-                <li class="ms-3"><a class="link-dark" href="#"><img class="imagenesRRSS"
-                            src="./images/instagram_logo.png" alt=""></a></li>
-                <li class="ms-3"><a class="link-dark" href="#"><img class="imagenesRRSS"
-                            src="./images/facebook_logo.png" alt=""></a></li>
-            </ul>
         </div>
     </footer>
 
