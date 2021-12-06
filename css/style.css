@@ -60,17 +60,14 @@ footer {
 
 #contacto {
     background-color: #e2d4e2;
-    display: flex;
-    justify-content:space-around;
+
 }
 
-.margenUbicacion {
-    margin-left: 120px;
+.marginSection{
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
-.margenFormulario {
-    margin-left: 30px;
-}
 #contacto h4 {
     font-family: Playfair Display;
     font-style: normal;
@@ -97,7 +94,9 @@ footer {
 }
 
 #contacto .formulario {
+    justify-content: space-around;
     margin-right: 120px;
+    margin-left: 120px;
     border-radius: 0px;
     padding: 10px 0px 30px;
 }
