@@ -24,7 +24,9 @@ footer {
     display: flex;
     justify-content: space-around;
 }
-
+.ubicacion{
+    justify-content: space-between;
+}
 #ubicacion h4 {
     font-family: Playfair Display;
     font-style: normal;
@@ -52,22 +54,17 @@ footer {
     margin-top: 56px;
     margin-right: 120px;
     margin-bottom: 70px;
-    justify-content: end;
 }
 .colorIcono {
     color: white;
 }
-
 #contacto {
     background-color: #e2d4e2;
-
 }
-
 .marginSection{
     margin-top: 20px;
     margin-bottom: 40px;
 }
-
 #contacto h4 {
     font-family: Playfair Display;
     font-style: normal;
@@ -80,7 +77,6 @@ footer {
     margin-bottom: 30px;
     text-align: left;
 }
-
 #contacto p {
     margin-left: 20px;
     margin-top: -5px;
@@ -96,7 +92,7 @@ footer {
 #contacto .formulario {
     justify-content: space-around;
     margin-right: 120px;
-    margin-left: 120px;
+    margin-left: 50px;
     border-radius: 0px;
     padding: 10px 0px 30px;
 }
