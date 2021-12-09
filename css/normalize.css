@@ -37,6 +37,10 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
+h1 {
+  font-size: 48px;
+  margin: 0.67em 0;
+}
 
 /* Grouping content
    ========================================================================== */
