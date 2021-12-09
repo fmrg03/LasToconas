@@ -3,18 +3,18 @@ html {
     width: 100%;
     height: 100%;
 }
-.marginSection{
+.marginSection {
     margin-top: 20px;
     margin-bottom: 40px;
 }
-.centrar{
+.centrar {
     text-align: center;
 }
-.tituloVioleta{
+.tituloVioleta {
     color: #4f2a4f;
     font-family: Playfair Display;
 }
-.boldFont{
+.boldFont {
     font-weight: bold;
 }
 
@@ -23,32 +23,32 @@ header nav {
     background-color: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(30px);
 }
-nav .navbar-brand{
+nav .navbar-brand {
     margin-left: 50px;
 }
-.navbar-collapse{
+.navbar-collapse {
     justify-content: center;
 }
-.navbar-nav a{
-    color: #784c78!important; 
+.navbar-nav a {
+    color: #784c78 !important;
 }
-.active{
+.active {
     font-weight: bold;
 }
-.logo2{
+.logo2 {
     margin-left: 10px;
 }
-.rrss{
+.rrss {
     margin-left: 10px;
-} 
+}
 
 /***** FOOTER *****/
 footer {
     background-color: #311a31;
 }
-footer a{
+footer a {
     text-decoration: none;
-    color: white!important;
+    color: white !important;
 }
 .paddingFooter {
     padding-bottom: 40px !important;
@@ -67,27 +67,27 @@ footer a{
     height: 960px;
     width: 100%;
 }
-#bienvenida h1{
+#bienvenida h1 {
     font-size: 64px;
     color: #4f2a4f;
 }
-#bienvenida p{
+#bienvenida p {
     font-size: 20px;
     color: #917591;
 }
-.textoInicial{
+.textoInicial {
     position: absolute;
     left: 10%;
     top: 30%;
 }
 
 /***** PRODUCTOS *****/
-#productos{
+#productos {
     padding: 0px;
     height: 100%;
     margin-bottom: 30px;
 }
-#productos h1{
+#productos h1 {
     color: white;
     font-family: Playfair Display;
     font-weight: bold;
@@ -96,7 +96,7 @@ footer a{
     margin: 0px;
     padding: 80px 0px 50px 10%;
 }
-.fondo{
+.fondo {
     position: absolute;
     background-color: #784c78;
     height: 15%;
@@ -105,97 +105,108 @@ footer a{
 }
 /***Carrousel***/
 @keyframes scroll {
-	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-250px * 7))}
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
 }
 .slider {
-	height: 120%;
-	margin: auto;
-	overflow:hidden;
-	position: relative;
-	width: 100%;
-	}
-	
+    height: 120%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
 .slide-track {
-	animation: scroll 40s linear infinite;
-	display: flex;
-	width: calc(250px * 14);
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
 }
 .slide {
-	height: 250px;
-	width: 250px;
-    margin-left: 20px ;
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
 }
-.nombreProducto{
+.nombreProducto {
     color: #784c78;
     font-size: 20px;
     text-align: center;
-    margin-left: -20px ;
+    margin-left: -20px;
 }
-.botonTienda{
+.botonTienda {
     text-align: center;
     box-sizing: border-box;
     border-radius: 4px;
-    border: 2px solid #4F2A4F;
+    border: 2px solid #4f2a4f;
     padding: 10px 30px;
 }
-.botonTienda a{
+.botonTienda a {
     text-decoration: none;
     font-weight: bold;
-    color: #4F2A4F;
+    color: #4f2a4f;
 }
 
 /***** BLOG YOUTUBE *****/
-#blogYoutube .row{
+#blogYoutube .row {
     justify-content: space-around;
 }
-#blogYoutube h1{
+#blogYoutube h1 {
     margin: 0px;
     padding: 20px 0px 50px 10%;
 }
 
 /***** NOSOTROS *****/
-#nosotros .historia{
+#nosotros .historia {
     background-color: #f7ebf7;
 }
-#nosotros .row{
+
+.historiaTexto {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+#nosotros .row {
     justify-content: space-around;
 }
-#nosotros h1{
+#nosotros h1 {
     margin-left: 0px;
     padding: 40px 0px 0px 10%;
 }
-.historia p{
+.historia p {
     font-size: 24px;
 }
-.conocenos{
+.conocenos {
     text-align: center;
 }
-.conocenos h1{
+.conocenos h1 {
     text-align: left;
 }
-.nombreApellido{
+.nombreApellido {
     font-size: 24px;
     font-weight: bold;
     color: #311a31;
 }
-.socios{
+.socios {
     font-size: 16px;
 }
 
 /***** UBICACION *****/
 #ubicacion {
-    margin-top: 20px;
     background-color: #784c78;
 }
-#ubicacion .row {
+
+#ubicacion .ubicacion {
     justify-content: space-around;
+    margin-left: 102px;
+    margin-right: 122px;
+    padding: 56px 0px 70px;
 }
 #ubicacion h1 {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
-    padding: 40px 0px 0px 15%;
     line-height: 50px;
     color: #fffcff;
 }
@@ -204,19 +215,14 @@ footer a{
     font-family: Oxygen;
     font-size: 24px;
     font-style: normal;
-    padding: 0px 0px 0px 20%;
 }
 #ubicacion img {
-    width: auto;
     margin-right: 2%;
 }
-.atencion{
-    padding-left: 7.5%;
+.atencion {
+    padding-left: 6.5%;
 }
-.maps {
-    margin-top: 56px;
-    margin-bottom: 70px;
-}
+
 .colorIcono {
     color: white;
 }
@@ -225,18 +231,27 @@ footer a{
 #contacto {
     background-color: #e2d4e2;
 }
+
+#contacto .formulario {
+    justify-content: space-around;
+    border-radius: 0px;
+    margin-left: 120px;
+    margin-right: 122px;
+    padding: 18px 0px 49px;
+}
+#contacto .formulario label {
+    font-weight: bold;
+    margin-top: 10px;
+}
 #contacto h1 {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
     line-height: 50px;
     color: #4f2a4f;
-    padding: 0px 0px 0px 0px;
     text-align: left;
 }
 #contacto p {
-    margin-left: 20px;
-    margin-top: -5px;
     color: #4f2a4f;
     font-family: Oxygen;
     font-size: 24px;
@@ -246,26 +261,14 @@ footer a{
     letter-spacing: 0.75px;
 }
 #contacto img {
-    width: auto;
     margin-right: 2%;
-}
-#contacto .formulario {
-    justify-content: space-around;
-    margin-right: 120px;
-    margin-left: 50px;
-    border-radius: 0px;
-    padding: 10px 0px 30px;
-}
-#contacto .formulario label {
-    font-weight: bold;
-    margin-top: 10px;
 }
 
 .nombreFormulario {
     background-color: #eff0f6;
     font-weight: bold;
     margin-top: 10px;
-    width: 580px;
+    width: auto;
     height: 56px;
 }
 
@@ -273,7 +276,7 @@ footer a{
     background-color: #eff0f6;
     font-weight: bold;
     margin-top: 10px;
-    width: 580px;
+    width: auto;
     height: 56px;
 }
 
@@ -281,7 +284,7 @@ footer a{
     background-color: #eff0f6;
     font-weight: bold;
     margin-top: 10px;
-    width: 580px;
+    width: auto;
     height: 128px;
 }
 .separacionLineas {
@@ -290,7 +293,6 @@ footer a{
 .enviarFormulario {
     text-align: center;
     background-color: #4f2a4f;
-    padding: 1rem 16rem;
 }
 .btn-primary:hover {
     color: #ffffff;
