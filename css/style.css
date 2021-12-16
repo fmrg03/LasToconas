@@ -60,7 +60,7 @@ footer a {
 
 /***** BIENVENIDA *****/
 #bienvenida {
-    background-image: url('/images/imagentop.PNG');
+    background-image: url("/images/imagentop.PNG");
     background-size: cover;
     margin: 0;
     padding: 0;
