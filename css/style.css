@@ -60,7 +60,7 @@ footer a {
 
 /***** BIENVENIDA *****/
 #bienvenida {
-    background-image: url("/images/Imagentop.png");
+    background-image: url("./images/Imagentop.png");
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -86,6 +86,7 @@ footer a {
     padding: 0px;
     height: 100%;
     margin-bottom: 30px;
+    scroll-margin-top: 4em;
 }
 #productos h1 {
     color: white;
@@ -150,6 +151,10 @@ footer a {
 }
 
 /***** BLOG YOUTUBE *****/
+#blogYoutube {
+    scroll-margin-top: 4.7em;
+}
+
 #blogYoutube .row {
     justify-content: space-around;
 }
@@ -159,6 +164,11 @@ footer a {
 }
 
 /***** NOSOTROS *****/
+
+#nosotros {
+    scroll-margin-top: 3.8em;
+}
+
 #nosotros .historia {
     background-color: #f7ebf7;
 }
@@ -195,6 +205,7 @@ footer a {
 /***** UBICACION *****/
 #ubicacion {
     background-color: #784c78;
+    scroll-margin-top: 4em;
 }
 
 #ubicacion .ubicacion {
