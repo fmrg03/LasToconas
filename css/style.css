@@ -12,12 +12,15 @@ html {
 }
 .tituloVioleta {
     color: #4f2a4f;
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
 }
 .boldFont {
     font-weight: bold;
 }
 
+p{
+    font-family: 'Oxygen', sans-serif;
+}
 /***** HEADER *****/
 header nav {
     width: 100%;
@@ -52,6 +55,7 @@ footer {
 }
 footer p{
     color: white;
+    font-family: 'Oxygen', sans-serif;
 }
 footer a {
     text-decoration: none;
@@ -80,6 +84,7 @@ footer a {
 }
 #bienvenida p {
     font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
     color: #917591;
 }
 .textoInicial {
@@ -97,7 +102,7 @@ footer a {
 }
 #productos h1 {
     color: white;
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
     font-weight: bold;
     background-color: #784c78;
     height: 200%;
@@ -197,6 +202,7 @@ footer a {
     padding: 40px 0px 0px 10%;
 }
 .historia p {
+    font-family: 'Oxygen', sans-serif;
     font-size: 24px;
 }
 .conocenos {
@@ -227,15 +233,15 @@ footer a {
     padding: 56px 0px 70px;
 }
 #ubicacion h1 {
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: normal;
     line-height: 50px;
     color: #fffcff;
 }
 #ubicacion p {
+    font-family: 'Oxygen', sans-serif;
     color: #fffcff;
-    font-family: Oxygen;
     font-size: 24px;
     font-style: normal;
 }
@@ -269,7 +275,7 @@ footer a {
     margin-top: 10px;
 }
 #contacto h1 {
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: normal;
     line-height: 50px;
@@ -278,7 +284,7 @@ footer a {
 }
 #contacto p {
     color: #4f2a4f;
-    font-family: Oxygen;
+    font-family: 'Oxygen', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -334,6 +340,7 @@ fieldset{
     background-color: #4f2a4f;
     border: 0px;
     border-radius: 5px;
+    margin-top: 20px;
     box-shadow: 0px 0px 5px 1px black;
 }
 .btn-primary:hover {
@@ -385,6 +392,7 @@ fieldset{
         font-size: 20px;
     }
     #ubicacion p{
+        font-family: 'Oxygen', sans-serif;
         font-size: 20px;
     }
     .textoInicial{
@@ -403,6 +411,7 @@ fieldset{
         width: 120px;
     }
     .historiaTexto p{
+        font-family: 'Oxygen', sans-serif;
         font-size: 16px;
         margin-left: 0px;
         margin-right: 0px;
