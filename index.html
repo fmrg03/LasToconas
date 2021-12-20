@@ -239,8 +239,9 @@
   <section id="ubicacion" class="container-fluid">
     <!--"UBICACION"-->
     <div class="row ubicacion">
-      <div class="col-xxl-7 col-sm-12">
-        <h1>Showroom</h1>
+      <h1>Showroom</h1>
+      <div class="col-xxl-7 col-sm-12 datosUbicacion1">
+
         <div class="row col-sm-12">
           <p>
             <img width="30" height="30" src="./images/ubicacion.png" />
@@ -257,13 +258,47 @@
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d53351.24047139245!2d-66.28116694733025!3d-33.306982951676126!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d43954196ca6cd%3A0x7fc2e3b4d49ecc83!2sSan%20Luis!5e0!3m2!1ses-419!2sar!4v1638496918939!5m2!1ses-419!2sar"
           width="650" height="400" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
       </div>
+      <div class="col-xxl-7 col-sm-12 datosUbicacion2">
+        <div class="row col-sm-12">
+          <p>
+            <img width="30" height="30" src="./images/ubicacion.png" />
+            Av. de los Incas 3751, San Luis, Argentina
+          </p>
+          <div class="atencion">
+            <p class="boldFont">Atención:</p>
+            <p>Lunes a Viernes de 9 hs a 18 hs</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <section id="contacto" class="container-fluid">
     <!--"CONTACTO"-->
     <div class="row formulario">
-      <div class="col-xxl-7 col-md-7 col-sm-12">
+      <div class="col-xxl-5 col-md-5 col-sm-12 formularioContacto1">
         <h1>Contacto</h1>
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xyylrjdo"
+          method="post">
+          <fieldset id="fs-frm-inputs">
+            <input class="nombreFormulario" type="text" name="name" id="full-name" placeholder="Nombre" required="" />
+            <input class="emailFormulario" type="email" name="_replyto" id="email-address" placeholder="E-mail"
+              required="" />
+            <textarea class="mensajeFormulario separacionLineas" rows="4" name="message" id="message"
+              placeholder="Escribí aquí tu consulta..." required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" />
+          </fieldset>
+          <div class="divBtnForm">
+            <button class="
+                  btn btn-primary btn-lg btn-blockclass
+                  enviarFormulario
+                " type="submit" value="Submit">
+              ENVIAR
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="col-xxl-7 col-md-7 col-sm-12">
+        <h1 class="h1Contacto">Contacto</h1>
         <div class="row">
           <p>
             <img width="30" height="30" src="./images/mail.png" />mail@lastoconas.com.ar
@@ -278,7 +313,7 @@
           </p>
         </div>
       </div>
-      <div class="col-xxl-5 col-md-5 col-sm-12">
+      <div class="col-xxl-5 col-md-5 col-sm-12 formularioContacto2">
         <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xyylrjdo"
           method="post">
           <fieldset id="fs-frm-inputs">
