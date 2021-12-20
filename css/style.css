@@ -42,6 +42,9 @@ nav .navbar-brand {
 .rrss {
     margin-left: 10px;
 }
+.rrss2{
+    display: none;
+}
 
 /***** FOOTER *****/
 footer {
@@ -365,7 +368,7 @@ fieldset{
     }
     #bienvenida{
         height: 500px;
-        background-image: url(none);
+        background-position: center;
         background-color: white;
     }
     #bienvenida h1{
@@ -446,6 +449,11 @@ fieldset{
     .seccionesUno{
         margin-left: 0px;
     }
+    .logoEsmalte{
+        padding: 10px;
+        width: auto;
+        margin: 0px;
+    }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1340px) {
     #contacto .formulario{
@@ -463,9 +471,22 @@ fieldset{
     .seccionesUno{
         margin-left: 0px;
     }
+    .logoEsmalte{
+        padding: 10px;
+        width: 100%;
+        margin: 0px;
+    }
 }
 @media only screen and (max-width: 1199px) {
     .rrss{
         display: none;
+    }
+    .rrss2{
+        display: inline-block;
+        margin: 10px;
+    }
+    #bienvenida{
+        background-position: center;
+        background-color: white;
     }
 }
